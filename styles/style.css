@@ -5,7 +5,7 @@
     font-style: normal;
   }
   
-  .fira-sans-extralight {
+  .fira-sans-extralight{
     font-family: "Fira Sans", serif;
     font-weight: 200;
     font-style: normal;
@@ -52,5 +52,47 @@
     font-weight: 900;
     font-style: normal;
   }
-  
-  
+  /* ..... */
+  /* Shared styles */
+  .btn-primary{
+       border-radius: 8px;
+       border: none;
+       text-align: center;
+       color:#FFFFFF;
+       background-color: #006A50;
+       padding: 17px 34px;
+  }
+  /* banner part */
+  header{
+    margin: 0 auto;
+   max-width: 1280px;  
+  }
+  /* .head-part{
+   display: flex;
+  } */
+  .banner-container{
+    display: flex;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 80px 100px;
+  }
+  .banner-content{
+    width: 620px; 
+  }
+  .banner-subtitle{
+        font-size: 24px;
+        font-weight: 500px;
+        color:#0E0E0E;    
+  }
+  .banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .hero-img{
+    align-items: center;
+  }
+
