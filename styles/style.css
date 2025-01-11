@@ -66,6 +66,18 @@
        background-color: #006A50;
        padding: 17px 34px;
   }
+  .btn-primary1{
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+  }
+  .btn-primary1:hover{
+    background-color: #ec0f0f;
+  }
   /* banner part */
   header{
     margin: 0 auto;
@@ -161,4 +173,59 @@ main{
     background-color: #FFC239;
     color: #FFFFFF;
     padding: 11px 20px;
+}
+.section-title-2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 80px ;
+}
+.section-description-2{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 24px;
+}
+.earth-img{
+    width: 408px;
+    height: auto;
+    border-radius: 24px;
+    border: none;
+    margin-top: 32px;
+}
+.sub-content{
+    
+    /* padding-bottom: 56px; */
+    
+}
+.satellite-container{
+   display: flex;
+   border-radius: 24px;
+   gap: 24px;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   padding: 48px;
+   width: 100%; 
+   
+}
+.al-jazeera-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.date-time{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+} 
+.al-jazeera-description{
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7) ;
+}
+.satellite-containers{
+    flex-direction: row-reverse;
+    display: flex;
+   border-radius: 24px;
+   gap: 24px;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   padding: 48px;
+   width: 100%; 
+   margin-top: 24px;
 }
