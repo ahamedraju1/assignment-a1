@@ -54,6 +54,10 @@
   }
   /* ..... */
   /* Shared styles */
+  *{
+    margin: 0;
+    padding: 0;
+  }
     .body-margin{
     margin-left: 160px;
     margin-right: 160px;
@@ -74,6 +78,7 @@
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600px;
+    cursor: pointer;
   }
   .btn-primary1:hover{
     background-color: #ec0f0f;
@@ -174,6 +179,11 @@ main{
     color: #FFFFFF;
     padding: 11px 20px;
 }
+/* Bangladesh2.0 recent news */
+.categories{
+    margin: 0 auto;
+    max-width: 1280px;
+}
 .section-title-2{
     font-size: 40px;
     font-weight: bold;
@@ -202,30 +212,111 @@ main{
    border-radius: 24px;
    gap: 24px;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-   padding: 48px;
-   width: 100%; 
-   
+   padding: 48px; 
+   margin-top: 24px;
 }
+
 .al-jazeera-title{
     font-size: 32px;
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
+    margin-bottom:12px;
 }
 .date-time{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom:12px;
 } 
 .al-jazeera-description{
     line-height: 24px;
     color:rgba(14, 14, 14, 0.7) ;
+    margin-bottom:32px;
 }
 .satellite-containers{
-    flex-direction: row-reverse;
-    display: flex;
+  
+   display: flex;
    border-radius: 24px;
    gap: 24px;
    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
    padding: 48px;
-   width: 100%; 
-   margin-top: 24px;
+   flex-direction: row-reverse;
+}
+/* donation styles */
+.donate{
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 80px;
+}
+.donation-container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    text-align: center;
+     margin-top: 24px;
+}
+.donate-description{
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    width: 100%; 
+    margin-top: 24px;
+    margin: 32px;
+}
+ 
+.donation-options{
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+    margin: 32px 0px;
+    /* justify-content: space-between; */
+    /* margin-bottom: 20px; */
+}
+.option {
+    /* width: 160px;
+    height: 48px; */
+    border-radius: 8px;
+    font-size: 40px;
+    padding: 40px;
+    background-color:white ;
+    border: 2px solid #ddd;
+    text-align: center;
+    cursor: pointer;   
+}
+.option-2{
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 40px;
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.option:hover {
+    border-color: #006400;
+}
+.option-2:hover{
+    border-color: #006400;
+}
+.custom-amount{
+    text-align: center;
+    padding: 20px 40px;
+    border: 2px solid #ddd;
+    border: none;
+    border-radius: 8px;
+    margin:  0px 140px;  
+} 
+
+/* Donate Button */
+.donate-button {
+    text-align: center; 
+    align-items: center;
+    justify-content: center;  
+}
+
+.donate-button:hover {
+    background-color: #004d00;
 }
